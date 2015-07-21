@@ -14,6 +14,7 @@
 		2356A3F11B5E093D00D65CC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2356A3F01B5E093D00D65CC6 /* Images.xcassets */; };
 		2356A3F41B5E093D00D65CC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2356A3F21B5E093D00D65CC6 /* LaunchScreen.xib */; };
 		2356A4001B5E093D00D65CC6 /* downloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2356A3FF1B5E093D00D65CC6 /* downloadTests.m */; };
+		2356A40B1B5E0A2700D65CC6 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2356A40A1B5E0A2700D65CC6 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2356A3F91B5E093D00D65CC6 /* downloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = downloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2356A3FE1B5E093D00D65CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2356A3FF1B5E093D00D65CC6 /* downloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = downloadTests.m; sourceTree = "<group>"; };
+		2356A4091B5E0A2700D65CC6 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		2356A40A1B5E0A2700D65CC6 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				2356A3F01B5E093D00D65CC6 /* Images.xcassets */,
 				2356A3F21B5E093D00D65CC6 /* LaunchScreen.xib */,
 				2356A3E31B5E093D00D65CC6 /* Supporting Files */,
+				2356A4091B5E0A2700D65CC6 /* person.h */,
+				2356A40A1B5E0A2700D65CC6 /* person.m */,
 			);
 			path = download;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				2356A3EC1B5E093D00D65CC6 /* ViewController.m in Sources */,
 				2356A3E91B5E093D00D65CC6 /* AppDelegate.m in Sources */,
+				2356A40B1B5E0A2700D65CC6 /* person.m in Sources */,
 				2356A3E61B5E093D00D65CC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
